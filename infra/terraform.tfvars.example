@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (gitignored) and fill in your own values.
+aws_region     = "us-east-2"
+aws_profile    = "watchdog"
+alert_email    = "you@example.com"
+model_id       = "paste-your-bedrock-model-or-inference-profile-id"
+weekly_limit   = 5
+monthly_budget = 10
